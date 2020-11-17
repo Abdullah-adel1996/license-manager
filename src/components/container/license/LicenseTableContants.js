@@ -1,6 +1,5 @@
 import React from 'react';
-import {CloseOutlined} from '@ant-design/icons';
-import {Popconfirm} from 'antd';
+
 
 
 // This is the table constant/settings which needed to render table elements

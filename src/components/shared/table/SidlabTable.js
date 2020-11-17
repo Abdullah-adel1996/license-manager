@@ -4,7 +4,7 @@ import { Col, Row } from 'antd';
 
 const SidlabTable = ({ cols, data, methods}) => {
 
-    const [selectedRowId, setSelectedRowId] = useState(null)
+    const [setSelectedRowId] = useState(null)
 
 
     const handleClick = (selectedItem) => {

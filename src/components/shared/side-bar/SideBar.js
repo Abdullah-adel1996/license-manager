@@ -1,6 +1,5 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Avatar, Divider} from 'antd';
-import {Link, useHistory} from 'react-router-dom';
 import {connect} from 'react-redux';
 import { 
     UserOutlined, 
@@ -32,13 +31,12 @@ const SideBar = (props) => {
           <Divider style={{backgroundColor:'#696f77', margin:'0'}}/>
           <li className={styles.sideBarTitle}>
               <Avatar shape="square" icon={<UserOutlined />} />
-              <span onClick={handleClick} className={styles.userName}>John Doe</span>
+              <span className={styles.userName}>John Doe</span>
           </li>
           <div style={{display:'flex', justifyContent:'center', marginBottom:'7px',}}>
             <Divider style={{backgroundColor:'#696f77', margin:'0', minWidth:'90%', width:'90%'}}/>
           </div>
           <li className={styles.sideBarItemContainer}>
-            <Link to=""></Link>
               <div onClick={()=> props.dispatch(setSidebarContent({num: 1}))} className={styles.sideBarItem}>
                 <Avatar size="small" icon={<CustomerServiceOutlined/>} />
                 <span style={{marginLeft:'8px'}}>Customers</span>
