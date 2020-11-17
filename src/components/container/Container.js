@@ -1,14 +1,12 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { Divider } from 'antd'
 import {connect} from 'react-redux';
 import Profile from './profile/Profile'
-import Customers from './customers/Customers';
-import { Link, useHistory } from 'react-router-dom';
 
 
 const Container = (props) => {
 
-    const history = useHistory()
+   // const history = useHistory()
 
 //    let content = null; 
 

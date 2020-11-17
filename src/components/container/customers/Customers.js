@@ -5,7 +5,7 @@ import { tableConstants } from '../../shared/table/tableConstant';
 
 const Customers = () => {
 
-    const [data, setData] = useState([
+    const [data] = useState([
         {
             name: 'Ahmed',
             email: 'test1@gmail.com',

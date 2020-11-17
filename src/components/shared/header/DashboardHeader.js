@@ -1,12 +1,11 @@
 import React from 'react';
-import { Typography, Avatar, Button, Divider} from 'antd';
+import { Typography } from 'antd';
 import {LogoutOutlined} from '@ant-design/icons';
 import styles from './DashboardHeader.module.css';
-import Container from '../../container/Container';
 
 const DashboardHeader = () => {
 
-    const {Title, Text} = Typography;
+    const {Title} = Typography;
 
     return (
         <nav className={styles.header}>
